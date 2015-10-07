@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B55E93471BC4C547002E67EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B55E93461BC4C547002E67EF /* main.m */; };
+		B55E934A1BC4C547002E67EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B55E93491BC4C547002E67EF /* AppDelegate.m */; };
+		B55E934D1BC4C547002E67EF /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B55E934C1BC4C547002E67EF /* GameScene.m */; };
+		B55E934F1BC4C547002E67EF /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B55E934E1BC4C547002E67EF /* GameScene.sks */; };
+		B55E93521BC4C547002E67EF /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B55E93511BC4C547002E67EF /* GameViewController.m */; };
+		B55E93551BC4C547002E67EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B55E93531BC4C547002E67EF /* Main.storyboard */; };
+		B55E93571BC4C547002E67EF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B55E93561BC4C547002E67EF /* Images.xcassets */; };
+		B55E935A1BC4C547002E67EF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B55E93581BC4C547002E67EF /* LaunchScreen.xib */; };
+		B55E93661BC4C547002E67EF /* Try_Infinity_JumpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B55E93651BC4C547002E67EF /* Try_Infinity_JumpTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B55E93601BC4C547002E67EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B55E93391BC4C546002E67EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B55E93401BC4C547002E67EF;
+			remoteInfo = Try_Infinity_Jump;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B55E93411BC4C547002E67EF /* Try_Infinity_Jump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Try_Infinity_Jump.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B55E93451BC4C547002E67EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B55E93461BC4C547002E67EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B55E93481BC4C547002E67EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B55E93491BC4C547002E67EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B55E934B1BC4C547002E67EF /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		B55E934C1BC4C547002E67EF /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		B55E934E1BC4C547002E67EF /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		B55E93501BC4C547002E67EF /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		B55E93511BC4C547002E67EF /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		B55E93541BC4C547002E67EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B55E93561BC4C547002E67EF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B55E93591BC4C547002E67EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B55E935F1BC4C547002E67EF /* Try_Infinity_JumpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Try_Infinity_JumpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B55E93641BC4C547002E67EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B55E93651BC4C547002E67EF /* Try_Infinity_JumpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Try_Infinity_JumpTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B55E933E1BC4C547002E67EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55E935C1BC4C547002E67EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B55E93381BC4C546002E67EF = {
+			isa = PBXGroup;
+			children = (
+				B55E93431BC4C547002E67EF /* Try_Infinity_Jump */,
+				B55E93621BC4C547002E67EF /* Try_Infinity_JumpTests */,
+				B55E93421BC4C547002E67EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B55E93421BC4C547002E67EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B55E93411BC4C547002E67EF /* Try_Infinity_Jump.app */,
+				B55E935F1BC4C547002E67EF /* Try_Infinity_JumpTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B55E93431BC4C547002E67EF /* Try_Infinity_Jump */ = {
+			isa = PBXGroup;
+			children = (
+				B55E93481BC4C547002E67EF /* AppDelegate.h */,
+				B55E93491BC4C547002E67EF /* AppDelegate.m */,
+				B55E934B1BC4C547002E67EF /* GameScene.h */,
+				B55E934C1BC4C547002E67EF /* GameScene.m */,
+				B55E934E1BC4C547002E67EF /* GameScene.sks */,
+				B55E93501BC4C547002E67EF /* GameViewController.h */,
+				B55E93511BC4C547002E67EF /* GameViewController.m */,
+				B55E93531BC4C547002E67EF /* Main.storyboard */,
+				B55E93561BC4C547002E67EF /* Images.xcassets */,
+				B55E93581BC4C547002E67EF /* LaunchScreen.xib */,
+				B55E93441BC4C547002E67EF /* Supporting Files */,
+			);
+			path = Try_Infinity_Jump;
+			sourceTree = "<group>";
+		};
+		B55E93441BC4C547002E67EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B55E93451BC4C547002E67EF /* Info.plist */,
+				B55E93461BC4C547002E67EF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B55E93621BC4C547002E67EF /* Try_Infinity_JumpTests */ = {
+			isa = PBXGroup;
+			children = (
+				B55E93651BC4C547002E67EF /* Try_Infinity_JumpTests.m */,
+				B55E93631BC4C547002E67EF /* Supporting Files */,
+			);
+			path = Try_Infinity_JumpTests;
+			sourceTree = "<group>";
+		};
+		B55E93631BC4C547002E67EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B55E93641BC4C547002E67EF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B55E93401BC4C547002E67EF /* Try_Infinity_Jump */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B55E93691BC4C547002E67EF /* Build configuration list for PBXNativeTarget "Try_Infinity_Jump" */;
+			buildPhases = (
+				B55E933D1BC4C547002E67EF /* Sources */,
+				B55E933E1BC4C547002E67EF /* Frameworks */,
+				B55E933F1BC4C547002E67EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Try_Infinity_Jump;
+			productName = Try_Infinity_Jump;
+			productReference = B55E93411BC4C547002E67EF /* Try_Infinity_Jump.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B55E935E1BC4C547002E67EF /* Try_Infinity_JumpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B55E936C1BC4C547002E67EF /* Build configuration list for PBXNativeTarget "Try_Infinity_JumpTests" */;
+			buildPhases = (
+				B55E935B1BC4C547002E67EF /* Sources */,
+				B55E935C1BC4C547002E67EF /* Frameworks */,
+				B55E935D1BC4C547002E67EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B55E93611BC4C547002E67EF /* PBXTargetDependency */,
+			);
+			name = Try_Infinity_JumpTests;
+			productName = Try_Infinity_JumpTests;
+			productReference = B55E935F1BC4C547002E67EF /* Try_Infinity_JumpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B55E93391BC4C546002E67EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = irons;
+				TargetAttributes = {
+					B55E93401BC4C547002E67EF = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					B55E935E1BC4C547002E67EF = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = B55E93401BC4C547002E67EF;
+					};
+				};
+			};
+			buildConfigurationList = B55E933C1BC4C546002E67EF /* Build configuration list for PBXProject "Try_Infinity_Jump" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B55E93381BC4C546002E67EF;
+			productRefGroup = B55E93421BC4C547002E67EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B55E93401BC4C547002E67EF /* Try_Infinity_Jump */,
+				B55E935E1BC4C547002E67EF /* Try_Infinity_JumpTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B55E933F1BC4C547002E67EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55E935A1BC4C547002E67EF /* LaunchScreen.xib in Resources */,
+				B55E93571BC4C547002E67EF /* Images.xcassets in Resources */,
+				B55E934F1BC4C547002E67EF /* GameScene.sks in Resources */,
+				B55E93551BC4C547002E67EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55E935D1BC4C547002E67EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B55E933D1BC4C547002E67EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55E93521BC4C547002E67EF /* GameViewController.m in Sources */,
+				B55E934A1BC4C547002E67EF /* AppDelegate.m in Sources */,
+				B55E934D1BC4C547002E67EF /* GameScene.m in Sources */,
+				B55E93471BC4C547002E67EF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55E935B1BC4C547002E67EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55E93661BC4C547002E67EF /* Try_Infinity_JumpTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B55E93611BC4C547002E67EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B55E93401BC4C547002E67EF /* Try_Infinity_Jump */;
+			targetProxy = B55E93601BC4C547002E67EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B55E93531BC4C547002E67EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B55E93541BC4C547002E67EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B55E93581BC4C547002E67EF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B55E93591BC4C547002E67EF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B55E93671BC4C547002E67EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B55E93681BC4C547002E67EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B55E936A1BC4C547002E67EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Try_Infinity_Jump/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B55E936B1BC4C547002E67EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Try_Infinity_Jump/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B55E936D1BC4C547002E67EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Try_Infinity_JumpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Try_Infinity_Jump.app/Try_Infinity_Jump";
+			};
+			name = Debug;
+		};
+		B55E936E1BC4C547002E67EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Try_Infinity_JumpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Try_Infinity_Jump.app/Try_Infinity_Jump";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B55E933C1BC4C546002E67EF /* Build configuration list for PBXProject "Try_Infinity_Jump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B55E93671BC4C547002E67EF /* Debug */,
+				B55E93681BC4C547002E67EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B55E93691BC4C547002E67EF /* Build configuration list for PBXNativeTarget "Try_Infinity_Jump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B55E936A1BC4C547002E67EF /* Debug */,
+				B55E936B1BC4C547002E67EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B55E936C1BC4C547002E67EF /* Build configuration list for PBXNativeTarget "Try_Infinity_JumpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B55E936D1BC4C547002E67EF /* Debug */,
+				B55E936E1BC4C547002E67EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B55E93391BC4C546002E67EF /* Project object */;
+}
